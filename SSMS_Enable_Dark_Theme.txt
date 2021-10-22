@@ -1,0 +1,11 @@
+Comment out remove dark theme option in file
+C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE
+ssms.pkgundef
+Edit file in text editor
+Find line with "Remove Dark Theme"
+Comment out the next line by appending a "//" before the text starting with [$RootKey$/Themes/…
+Save file
+Restart SSMS
+SSMS
+Tools--Options
+Color Theme: Dark
